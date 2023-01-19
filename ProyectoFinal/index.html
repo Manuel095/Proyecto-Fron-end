@@ -1,22 +1,170 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html >
+<html id="html" lang="es" data-bs-theme="" >
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manuel Quiroga</title>
-  <link rel="stylesheet" href="multimedia/css/estilo.css">
-  <script src="multimedia/js/eventos.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+  
+  
   <link rel="icon" type="image/x-icon" href="multimedia/imagen/curriculum-vitaer-icons.jpg">
   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="multimedia/css/estilo.css">
+
+
 </head>
 
-<body>
-  <p>hola mundodddddd</p>
+
+
+<body class="container-fluid">
+<!-- 
+<div>
+  <a><i id="oscuridad" class="bi bi-moon-stars"></i></a>
+  <script src="multimedia/js/eventos.js"></script>
+  <nav class="navbar justify-content-center navbar-dark bg-*" role="navigation">
+  
+    <ul class="nav ">
+      <li><a href="#cuerpoPresentacion"><i class="border border-0 rounded m-2 bi bi-house-door nav_icon" style="font-size: 2em;"></i></a></li>
+      <li><a href="#cuerpoAcercaDeMi" ><i class="border border-0 rounded m-2 bi bi-person nav_icon" style="font-size: 2em;"></i></a></li>
+      <li><i class="bi bi-journal nav_icon" style="font-size: 2em;"></i></li>
+      <li><i class="bi bi-heart nav_icon" style="font-size: 2em;"></i></li>
+      <li><i class="bi bi-chat-dots nav_icon" style="font-size: 2em;"></i></li>
+    </ul>
+</div>
+-->
+
+<main class="contain contain-fluid" >
+  <div class="row"> 
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+    <div class="col-1 border">1</div>
+  </div>
+
+  <div class="row"> 
+    <div class="col-1 border "> <!-- columna izquierda -->
+      <ul class="nav ">
+        <li class="col-12"><a href="#encabezado"><h2 class="col-12 border border-0 rounded p-2 bi bi-house-door nav_icon"></h2></a></li>
+        <li class="col-12"><a href="#personal" ><h2 class="col-12 border border-0 rounded p-2 bi bi-person nav_icon"></h2></a></li>
+        <li class="col-12"><h2 class="col-12 border border-0 rounded p-2 bi bi-journal nav_icon"></h2></li>
+        <li class="col-12"><h2 class="col-12 border border-0 rounded p-2 bi bi-heart nav_icon"></h2></li>
+        <li class="col-12"><h2 class="col-12 border border-0 rounded p-2 bi bi-chat-dots nav_icon"></h2></li>
+      </ul>
+    </div>
+
+    <div class="col-11 border"> <!-- columna derecha -->
+
+        <!-- Encabezado -->
+      <div class="p-2 row col-12  align-items-center" id="encabezado">
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img class="col-6 col-md-5 rounded " src="multimedia/imagen/FotoPerfil.jpg" >
+        </div>
+        <div class="pt-3 col-12 col-lg-6 text-center text-lg-start">
+          <h1>Manuel Quiroga</h1>
+          <h5>Desarrollo Front End</h5>
+        </div>                
+      </div>
+
+        <!-- Datos de contacto --> 
+      <div class="nav p-2 col-12 d-flex bg-primary-subtle" id="datoscontacto">
+        <div class="container">
+          <!-- Puntos de navegacion -->
+          <ul class="nav nav-pills justify-content-center" role="tablist">
+              
+            <li class="col text-center nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#direccion"><h1 class="bi bi-geo-alt-fill"></h1></a>
+            </li>
+            <li class="col text-center nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#telefonomovil"><h1 class="bi bi-telephone-fill"></h1></a>
+            </li>
+            <li class="col text-center nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#correoelectronico"><h1 class="bi bi-envelope-at-fill"></h1></a>
+            </li>
+            <li class="col text-center nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#redessociales"><h1 class="bi bi-three-dots-vertical"></h1></a>
+            </li>
+          </ul>
+        
+          <!-- Tab panes -->
+          <div class="tab-content text-center">
+            <div id="direccion" class="container tab-pane active">
+              <h2>Direccion</h2>
+              <div>San Juan 267, Rafaela, Santa fe</div>
+            </div>
+            <div id="telefonomovil" class="container tab-pane fade">
+              <h2>Telefono Movil</h2>
+              <div>+54 9 3333 666666</div>
+            </div>
+            <div id="correoelectronico" class="container tab-pane fade">
+              <h2>Correo Electronico</h2>
+              <div>manuel.j.quiroga@hotmail.com</div>
+            </div>
+            <div id="redessociales" class="row container tab-pane fade">
+              <h2 class="col-12">Redes sociales</h2>
+                <span class="col"><a href="https://www.linkedin.com/" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-linkedin nav_icon"></i></a></span>
+                <span class="col"><a href="https://github.com/" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-github nav_icon"></i></a></span>
+                <spam class="col"><a href="https://www.instagram.com" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-instagram nav_icon"></i></a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-2 col-12" id="personal"> <!--Informacion Personal-->
+        <div class="text-start">
+          
+          <h3>Informacion Personal</h3>
+          <ul>
+            <li>Fecha de nacimiento: 18/12/1995</li>
+            <li>Nacionalidad: Argentina</li>
+            <li>Residencia: Rafaela, Santa fe</li>
+          </ul>
+        </div> 
+      </div>
+
+      <div class="text-end col-12 p-5">    <!--Extracto-->
+        <h3>Sobre mi:</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, amet! Quae doloremque incidunt debitis iusto ipsam cum, repellendus beatae, esse magnam excepturi veniam illo. Quasi voluptatum quo numquam doloribus necessitatibus.</p>
+      </div>
+      <div class="col">
+        <h3>Apartado 5</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+
+      </div>
+      <div class="col-12">
+        <h3>Apartado 5</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+
+      </div>
+  
+    </div>
+ 
+  </div>
+
+</main>
+
+
+  
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+  
 </body>
 </html>
