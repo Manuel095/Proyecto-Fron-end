@@ -1,8 +1,6 @@
 
 var tema = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-console.log(tema)
-
 if (tema == true){
     document.getElementById("html").setAttribute("data-bs-theme","dark");
     tema = true;       
