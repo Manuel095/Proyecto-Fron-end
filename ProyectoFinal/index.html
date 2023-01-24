@@ -5,166 +5,158 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manuel Quiroga</title>
-  
-  
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  
-  
-  
   <link rel="icon" type="image/x-icon" href="multimedia/imagen/curriculum-vitaer-icons.jpg">
-  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="multimedia/css/estilo.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
 
+  <script src="multimedia/js/eventos.js"></script>
 </head>
 
-
-
 <body class="container-fluid">
-<!-- 
-<div>
-  <a><i id="oscuridad" class="bi bi-moon-stars"></i></a>
-  <script src="multimedia/js/eventos.js"></script>
-  <nav class="navbar justify-content-center navbar-dark bg-*" role="navigation">
-  
-    <ul class="nav ">
-      <li><a href="#cuerpoPresentacion"><i class="border border-0 rounded m-2 bi bi-house-door nav_icon" style="font-size: 2em;"></i></a></li>
-      <li><a href="#cuerpoAcercaDeMi" ><i class="border border-0 rounded m-2 bi bi-person nav_icon" style="font-size: 2em;"></i></a></li>
-      <li><i class="bi bi-journal nav_icon" style="font-size: 2em;"></i></li>
-      <li><i class="bi bi-heart nav_icon" style="font-size: 2em;"></i></li>
-      <li><i class="bi bi-chat-dots nav_icon" style="font-size: 2em;"></i></li>
-    </ul>
-</div>
--->
-
-<main class="contain contain-fluid" >
   <div class="row"> 
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-    <div class="col-1 border">1</div>
-  </div>
-
-  <div class="row"> 
-    <div class="col-1 border "> <!-- columna izquierda -->
-      <ul class="nav ">
-        <li class="col-12"><a href="#encabezado"><h2 class="col-12 border border-0 rounded p-2 bi bi-house-door nav_icon"></h2></a></li>
-        <li class="col-12"><a href="#personal" ><h2 class="col-12 border border-0 rounded p-2 bi bi-person nav_icon"></h2></a></li>
-        <li class="col-12"><h2 class="col-12 border border-0 rounded p-2 bi bi-journal nav_icon"></h2></li>
-        <li class="col-12"><h2 class="col-12 border border-0 rounded p-2 bi bi-heart nav_icon"></h2></li>
-        <li class="col-12"><h2 class="col-12 border border-0 rounded p-2 bi bi-chat-dots nav_icon"></h2></li>
-      </ul>
-    </div>
-
-    <div class="col-11 border"> <!-- columna derecha -->
-
-        <!-- Encabezado -->
-      <div class="p-2 row col-12  align-items-center" id="encabezado">
-        <div class="col-12 col-lg-6 d-flex justify-content-center">
-          <img class="col-6 col-md-5 rounded " src="multimedia/imagen/FotoPerfil.jpg" >
-        </div>
-        <div class="pt-3 col-12 col-lg-6 text-center text-lg-start">
-          <h1>Manuel Quiroga</h1>
-          <h5>Desarrollo Front End</h5>
-        </div>                
+      <div class="nav justify-content-end" > <!-- menu aereo -->
+        <ul class="nav position-fixed d-flex bg-primary-subtle border rounded ">
+          <li class="col text-center nav-item"><a href="#encabezado" ><h4 class="col-12  p-2 bi bi-person nav_icon"></h4></a></li>
+          <li class="col text-center nav-item"><a href="#datoscontacto" ><h4 class="col-12  p-2 bi bi-chat-dots nav_icon"></h4></a></li>
+          <li class="col text-center nav-item"><a href="#extracto" ><h4 class="col-12  p-2 bi bi-journal nav_icon"></h4></a></li>
+          <li class="col text-center nav-item"><a href="#identidad" ><h4 class="col-12  p-2 bi bi-gear nav_icon"></h4></a></li>
+        </ul>
       </div>
 
-        <!-- Datos de contacto --> 
-      <div class="nav p-2 col-12 d-flex bg-primary-subtle" id="datoscontacto">
-        <div class="container">
-          <!-- Puntos de navegacion -->
-          <ul class="nav nav-pills justify-content-center" role="tablist">
-              
-            <li class="col text-center nav-item">
-              <a class="nav-link active" data-bs-toggle="pill" href="#direccion"><h1 class="bi bi-geo-alt-fill"></h1></a>
-            </li>
-            <li class="col text-center nav-item">
-              <a class="nav-link" data-bs-toggle="pill" href="#telefonomovil"><h1 class="bi bi-telephone-fill"></h1></a>
-            </li>
-            <li class="col text-center nav-item">
-              <a class="nav-link" data-bs-toggle="pill" href="#correoelectronico"><h1 class="bi bi-envelope-at-fill"></h1></a>
-            </li>
-            <li class="col text-center nav-item">
-              <a class="nav-link" data-bs-toggle="pill" href="#redessociales"><h1 class="bi bi-three-dots-vertical"></h1></a>
-            </li>
-          </ul>
-        
-          <!-- Tab panes -->
-          <div class="tab-content text-center">
-            <div id="direccion" class="container tab-pane active">
-              <h2>Direccion</h2>
-              <div>San Juan 267, Rafaela, Santa fe</div>
-            </div>
-            <div id="telefonomovil" class="container tab-pane fade">
-              <h2>Telefono Movil</h2>
-              <div>+54 9 3333 666666</div>
-            </div>
-            <div id="correoelectronico" class="container tab-pane fade">
-              <h2>Correo Electronico</h2>
-              <div>manuel.j.quiroga@hotmail.com</div>
-            </div>
-            <div id="redessociales" class="row container tab-pane fade">
-              <h2 class="col-12">Redes sociales</h2>
-                <span class="col"><a href="https://www.linkedin.com/" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-linkedin nav_icon"></i></a></span>
-                <span class="col"><a href="https://github.com/" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-github nav_icon"></i></a></span>
-                <spam class="col"><a href="https://www.instagram.com" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-instagram nav_icon"></i></a></span>
+      <div class="nav" > <!-- boton modo oscuro/claro -->
+        <div class="col"><h4 class="col-12 p-2 bi bi-circle-half" id="oscuridad" onClick="modotema()"></h4></div>
+      </div>
+
+      <div class="m-0 col-12"> <!-- cuerpo -->
+
+          <!-- Encabezado -->
+        <div class="m-2 m-sm-1 p-5 row col-12 align-items-center" id="encabezado">
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <img class="col-6 col-md-5 rounded " src="multimedia/imagen/FotoPerfil.jpg" >
+          </div>
+          <div class="presentacion  p-3 col-12 col-md-6 text-center text-lg-start">
+            <h1 class="p-1">Manuel Quiroga</h1>
+            <h5 class="p-1">Desarrollo Front End</h5>
+          </div>                
+        </div>
+
+          <!-- Datos de contacto --> 
+        <div class="nav p-2 col-12 d-flex bg-primary-subtle" id="datoscontacto">
+          <div class="container">
+            <!-- Puntos de navegacion -->
+            <ul class="nav nav-pills justify-content-center p-3" role="tablist">
+                
+              <li class="col text-center nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#direccion"><h1 class="bi bi-geo-alt-fill"></h1></a>
+              </li>
+              <li class="col text-center nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#telefonomovil"><h1 class="bi bi-telephone-fill"></h1></a>
+              </li>
+              <li class="col text-center nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#correoelectronico"><h1 class="bi bi-envelope-at-fill"></h1></a>
+              </li>
+              <li class="col text-center nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#redessociales"><h1 class="bi bi-three-dots-vertical"></h1></a>
+              </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content text-center">
+              <div id="direccion" class="container tab-pane active">
+                <h2>Direccion</h2>
+                <div>San Juan 267, Rafaela, Santa fe</div>
+              </div>
+              <div id="telefonomovil" class="container tab-pane fade">
+                <h2>Telefono Movil</h2>
+                <div>+54 9 3333 666666</div>
+              </div>
+              <div id="correoelectronico" class="container tab-pane fade">
+                <h2>Correo Electronico</h2>
+                <div>manuel.j.quiroga@hotmail.com</div>
+              </div>
+              <div id="redessociales" class="row container tab-pane fade">
+                <h2 class="col-12">Redes sociales</h2>
+                  <span class="col"><a href="https://www.linkedin.com/" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-linkedin nav_icon"></i></a></span>
+                  <span class="col"><a href="https://github.com/" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-github nav_icon"></i></a></span>
+                  <spam class="col"><a href="https://www.instagram.com" target="_blank"><i class="col-12 border border-0 rounded m-2 bi bi-instagram nav_icon"></i></a></span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="p-2 col-12" id="personal"> <!--Informacion Personal-->
-        <div class="text-start">
-          
-          <h3>Informacion Personal</h3>
-          <ul>
-            <li>Fecha de nacimiento: 18/12/1995</li>
-            <li>Nacionalidad: Argentina</li>
-            <li>Residencia: Rafaela, Santa fe</li>
-          </ul>
-        </div> 
-      </div>
+        <div class="text-start col-12 p-3" id="extracto">    <!--Extracto-->
+          <h3 class="p-2">Sobre mi</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, amet! Quae doloremque incidunt debitis iusto ipsam cum, repellendus beatae, esse magnam excepturi veniam illo. Quasi voluptatum quo numquam doloribus necessitatibus.</p>
+        </div>
 
-      <div class="text-end col-12 p-5">    <!--Extracto-->
-        <h3>Sobre mi:</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, amet! Quae doloremque incidunt debitis iusto ipsam cum, repellendus beatae, esse magnam excepturi veniam illo. Quasi voluptatum quo numquam doloribus necessitatibus.</p>
-      </div>
-      <div class="col">
-        <h3>Apartado 5</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+        <div class="col-12 p-3" id="explaboral">      <!--Experiencia laboral-->
+          <h3>Experiencia laboral</h3>
+          <div class="p-2">
+            <h5>Lorem ipsum dolor sit</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+            <p>Periodo 2018 a 2020. <a href="###" target="_blank">Institucion.</a></p>
+          </div>
+          <div class="p-2">
+            <h5>Lorem ipsum dolor sit</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+            <p>Periodo 2021 a periodo actual. <a href="#" target="_blank">Empresa.</a></p>
+          </div>
+          <div class="p-2">
+            <h5>Lorem ipsum dolor sit</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
+            <p>Periodo 2023 a actualidad.</p>
+          </div>
+        </div>
 
-      </div>
-      <div class="col-12">
-        <h3>Apartado 5</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eius quam totam fugiat blanditiis, nihil iure laudantium fuga saepe corrupti commodi id modi aspernatur excepturi, culpa libero iste ad iusto.</p>
 
+        <div class="row p-3" id="identidad">
+          <div class="p-3 col-12 col-sm-6 col-md-4"> <!--Informacion Personal-->
+            <div class="text-start">
+              
+              <h3>Informacion Personal</h3>
+              <ul>
+                <li>Nacimiento: 18/12/1995</li>
+                <li>Nacionalidad: Argentina</li>
+                <li>Residencia: Rafaela, Santa fe</li>
+              </ul>
+            </div> 
+          </div>
+  
+          <div class="p-3 col-12 col-sm-6 col-md-3"> <!--Habilidades-->
+            <h3>Habilidades</h3>
+            <ul>
+              <li>Creatividad</li>
+              <li>Pensamiento logico</li>
+              <li>Comunicacion</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="p-3 col-12 col-sm-6 col-md-5"> <!--Estudios-->
+            <h3>Estudios</h3>
+            <div>
+              <h5>Argentina Programa: #SéPrograma</h5>
+              <p>2021 - Finalizado</p>
+            </div>
+            <div>
+              <h5>Ingenieria Electromecanica / UTN</h5>
+              <p>2015 - En proceso.</p>
+            </div>
+          </div>
+
+        </div>
+ 
       </div>
   
-    </div>
- 
   </div>
 
-</main>
-
-
-  
-
-
-
-
-  
-  
 </body>
 </html>
